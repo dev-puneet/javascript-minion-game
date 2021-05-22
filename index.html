@@ -5,8 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minion | taddaaaa</title>
+    <style>
+        textarea{
+            display: block;
+            margin: 2rem;
+            padding: 1rem;
+        }
+        .output{
+            border: 1px solid black;
+            height: 15vh;
+            width:50%;
+            padding : 1rem;
+
+        }
+    </style>
 </head>
 <body>
     <h1>Minion Language</h1>
+    <textarea name="textholder" placeholder="Place your text here" id="txt-area" cols="30" rows="10"></textarea>
+    <button id='btn-primary'>Translate</button>
+    <h2>Translated Output</h2>
+    <div class='output'></div>
+    <script src='app.js'></script>
 </body>
 </html>
